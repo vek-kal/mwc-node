@@ -28,9 +28,10 @@ use crate::types::{
 use crate::{util, Libp2pMessages, Libp2pPeers};
 
 /// Public definition used to generate Node jsonrpc api.
-/// * When running `grin` with defaults, the V2 api is available at
+/// * When running `mwc` with defaults, the V2 api is available at
 /// `localhost:3413/v2/foreign`
 /// * The endpoint only supports POST operations, with the json-rpc request as the body
+/// * Default user authentification is `mwcmain` (mainnet).
 #[easy_jsonrpc_mw::rpc]
 pub trait ForeignRpc: Sync + Send {
 	/**
