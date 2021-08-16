@@ -187,7 +187,7 @@ Let's explore first what mwc-wallet can do by running:
 ```
 > ~/my_mwc_install/mwc-wallet/mwc-wallet.exe --help
 mwc-wallet 2.4.5
-The Grin Team
+The MWC Team
 Reference MWC Wallet
 
 USAGE:
