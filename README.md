@@ -13,7 +13,7 @@ MWC is an in-progress implementation of the MimbleWimble protocol. Many characte
   * Follows the Mimblewimble protocol, which provides hidden amounts and scaling advantages.
   * Cuckoo Cycle proof of work in two variants named Cuckaroo (ASIC-resistant) and Cuckatoo (ASIC-targeted).
   * Relatively fast block time: one minute.
-  * Fixed block reward over time with a decreasing dilution.
+  * Fixed supply of 20 000 000 with block reward decreasing over time throught 10 periods.
   * Transaction fees are based on the number of Outputs created/destroyed and total transaction size.
   * Smooth curve for difficulty adjustments.
 
